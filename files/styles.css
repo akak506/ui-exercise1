@@ -4,3 +4,32 @@
 
 /* Add your styles here */
 /* Refer to README for hints */
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 100px;
+}
+.images {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+
+}
+.tagline {
+    display: flex;
+    justify-content: center;
+    color: orange;
+}
+
+.images > img {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.mainImg {
+    border-radius: 15px;
+
+}
+
+
